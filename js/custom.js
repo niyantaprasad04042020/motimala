@@ -84,7 +84,7 @@ jQuery(document).ready(function ($) {
   function initTimer() {
     if ($('.timer').length) {
       // uncomment line below and replace date
-      var target_date = new Date("Feb 13, 2023").getTime();
+      var target_date = new Date("Feb 13, 2024").getTime();
 
       // comment lines below
       // var date = new Date();
