@@ -1,0 +1,31 @@
+.product-list {
+ padding-left: 10px;   
+}
+.breadcrumbs {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.breadcrumb-items {
+  display: inline-block;
+}
+
+.breadcrumb-items:not(:last-of-type)::after {
+  content: '>';
+  margin: 0 5px;
+  color: #2b2b34;
+}
+
+.breadcrumb-link {
+  text-decoration: none;
+  color: #1e1e27
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+  color: #2b2b34;
+}
+
+.breadcrumb-link-active {
+  color: #fe4c50;
+  font-weight: 500;
+}
